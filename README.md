@@ -10,5 +10,5 @@ docker build -t chess-engine .
 
 Then run the program using
 ```
-docker run -it -m 15m chess-engine
+docker run -it -m 10m chess-engine
 ```
