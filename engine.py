@@ -106,7 +106,7 @@ def evaluate(board):
     return boardvalue
 
 # determine the best move in a given position using minimax with a given depth
-def _determine_best_move(board, is_white, depth = 7):
+def _determine_best_move(board, is_white, depth = 6):
     best_move = -100000 if is_white else 100000
     best_final = None
     for move in board.legal_moves:
